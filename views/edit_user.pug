@@ -1,0 +1,15 @@
+html
+    head
+        title
+    body
+        h2= message
+        form(method='post', action='/users/edit/' + data.id)
+            input(type='hidden', name='_method', value='PUT')
+            span.label Name
+            input(type='text',  name='name', value=data.name)
+            br
+            span.label Age
+            input(type='text',  name='age', value=data.age)
+            br
+            input(type='submit',  value='save')
+

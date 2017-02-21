@@ -1,0 +1,22 @@
+{
+  "name": "node-express-jade",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "PSNjs": "^0.1.2",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "lodash": "^4.17.2",
+    "method-override": "^2.3.6",
+    "morgan": "~1.7.0",
+    "mysql": "^2.11.1",
+    "pug": "^2.0.0-beta6",
+    "sequelize": "^3.24.6",
+    "serve-favicon": "~2.3.0"
+  }
+}

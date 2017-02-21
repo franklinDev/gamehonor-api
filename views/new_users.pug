@@ -1,0 +1,13 @@
+html
+    head
+        title
+    body
+        h2= message
+        form(method='post', action='/users/create')
+            span.label Name
+            input(type='text',  name='name')
+            br
+            span.label Age
+            input(type='text',  name='age')
+            br
+            input(type='submit',  value='save')
